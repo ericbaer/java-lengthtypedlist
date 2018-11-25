@@ -6,8 +6,8 @@ An attempt at applying some of Haskell's techniques for simulating dependent typ
 It consists of:
 
 * Peano numbers: [`Zero`](src/lengthtypedlist/Zero.java) and [`S`](src/lengthtypedlist/S.java)
-* Compile-time proof that one number is less than another: [`LessThan`](src/lengthtypedList/LessThan.java), analogous to [`LTE` in Idris](https://github.com/idris-lang/Idris-dev/blob/master/libs/prelude/Prelude/Nat.idr#L116), and its subclasses [`ZeroLessThanN`](src/lengthtypedList/ZeroLessThanN.java) (like `LTEZero`) and [`SuccLessThanSucc`](src/lengthtypedList/SuccLessThanSucc.java) (like `LTESucc`). Used for compile-time checking of list indices.
-* The actual list [`LengthTypedList`](src/lengthtypedList/LengthTypedList.java), and its subclasses [`EmptyList`](src/lengthtypedList/EmptyList.java) and [`NonEmptyList`](src/lengthtypedList/NonEmptyList.java)
+* Compile-time proof that one number is less than another: [`LessThan`](src/lengthtypedlist/LessThan.java), analogous to [`LTE` in Idris](https://github.com/idris-lang/Idris-dev/blob/master/libs/prelude/Prelude/Nat.idr#L116), and its subclasses [`ZeroLessThanN`](src/lengthtypedlist/ZeroLessThanN.java) (like `LTEZero`) and [`SuccLessThanSucc`](src/lengthtypedlist/SuccLessThanSucc.java) (like `LTESucc`). Used for compile-time checking of list indices.
+* The actual list [`LengthTypedList`](src/lengthtypedlist/LengthTypedList.java), and its subclasses [`EmptyList`](src/lengthtypedlist/EmptyList.java) and [`NonEmptyList`](src/lengthtypedlist/NonEmptyList.java)
 
 ## Usage examples:
 
